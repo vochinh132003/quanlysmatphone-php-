@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("PagesLaunchpointTabFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("745");c=b("FalcoLoggerInternal").create("pages_launchpoint_tab",a);e.exports=c},null,typeof self!=="undefined"&&self.document&&self.document.currentScript);
+__d("PagesPageBookmarkLaunchpointImpressionFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1744144");c=b("FalcoLoggerInternal").create("pages_page_bookmark_launchpoint_impression",a);e.exports=c},null,typeof self!=="undefined"&&self.document&&self.document.currentScript);

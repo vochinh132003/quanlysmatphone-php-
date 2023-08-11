@@ -1,0 +1,130 @@
+.card-container {
+    /* background: #000; */
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    max-width: 100%;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.main-title {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.payment-card {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 260px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 7px 25px rgba(239, 229, 229, 0.956);
+}
+
+.payment-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.titlee {
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+}
+
+.amount-value {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+
+}
+
+.icons {
+    color: red;
+    padding: 1.2rem;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 4rem;
+    background: rgb(7, 245, 229);
+    animation: animate 10s linear infinite;
+    box-shadow: 0 7px 25px rgba(115, 112, 112, 0.956);
+}
+
+.iconn {
+    color: #000;
+    padding: 1.2rem;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 4rem;
+    background: rgb(255, 204, 0);
+    animation: animate 10s linear infinite;
+    box-shadow: 0 7px 25px rgba(115, 112, 112, 0.956);
+}
+
+.iconnn {
+    color: #000;
+    padding: 1.2rem;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 4rem;
+    background: rgb(44, 246, 4);
+    animation: animate 10s linear infinite;
+    box-shadow: 0 7px 25px rgba(115, 112, 112, 0.956);
+}
+
+.iconnnn {
+    color: #000;
+    padding: 1.2rem;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 4rem;
+    background: rgb(246, 4, 190);
+    animation: animate 10s linear infinite;
+    box-shadow: 0 7px 25px rgba(115, 112, 112, 0.956);
+}
+
+@keyframes animate {
+    0% {
+        filter: blur(0px) hue-rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0px) hue-rotate(360deg);
+    }
+}
+
+.border {
+    height: 10px;
+    background: rgb(7, 245, 229);
+    border-radius: 10%;
+}

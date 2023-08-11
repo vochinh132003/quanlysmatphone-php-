@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("UserSignalsClientClickEventFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1953436");c=b("FalcoLoggerInternal").create("user_signals_client_click_event",a);e.exports=c},null,typeof self!=="undefined"&&self.document&&self.document.currentScript);
